@@ -1,8 +1,0 @@
-FROM debian:stretch
-
-RUN apt-get update && apt-get install --no-install-recommends -y \
-    gcc pkg-config libtool-bin \
-    libgstrtspserver-1.0-dev \
- && rm -rf /var/lib/apt/lists/*
-
-ADD make-buildenv /bin/make-buildenv
