@@ -11,7 +11,7 @@ docker run --rm -p 8554:8554 steabert/gst-rtsp-launch
 ```
 which will run the RTSP server with the default pipeline.
 
-## Building your own image.
+## Building your own image
 
 The code for the RTSP server is an example that
 is part of [gst-rtsp-server](https://github.com/GStreamer/gst-rtsp-server)
